@@ -1,1 +1,3 @@
-# Build-Serverless-ChatGPT-API
+# Build Serverless ChatGPT API
+
+To build a Serverless ChatGPT API using Azure Functions, start by setting up an Azure account and obtaining an API key from OpenAI. Install the necessary tools, including Azure Functions Core Tools, and create a new project with an HTTP-triggered function. Install dependencies, such as an HTTP client library, and then customize the function code in ChatFunction.cs to call the OpenAI GPT API. Test the function locally using func start and tools like curl or Postman. Once satisfied, deploy the function to Azure using func azure functionapp publish . Ensure the secure handling of sensitive information, such as API keys, in production by leveraging Azure Key Vault or Functions application settings. Now, your Serverless ChatGPT API is deployed on Azure and ready for use, providing an efficient and scalable solution for chat-based interactions with the GPT model.
